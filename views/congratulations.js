@@ -1,4 +1,4 @@
-<% include layout/head.ejs %>
+<% include layout/head.js %>
 
 
 <br>
@@ -45,7 +45,7 @@
 
 
 
-<% include layout/footer.ejs %>
+<% include layout/footer.js %>
 
 </body>
 </body>
