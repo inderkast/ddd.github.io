@@ -20,6 +20,8 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/stylo.css">
+<script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/ejs@2.6.1/ejs.min.js"></script>
 
 </head>
 
