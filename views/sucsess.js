@@ -112,7 +112,7 @@
                     </section>
                 </div>
             </div>
-            <% include layout/footer.ejs %>
+            <% include layout/footer.js %>
 
 </body>
 
