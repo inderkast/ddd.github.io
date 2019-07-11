@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static(path.join(__dirname, '/public')))
 
 
-app.set('view engine', 'ejs')
+app.set('view engine')
 
 app.get('/', (req, res) => res.render('index'))
 
@@ -89,7 +89,7 @@ app.get('/searching', function(req, res) {
                                                                                         
 
 
-app.engine('ejs', require('ejs-locals'))
+app.engine(require('ejs-locals'))
 
 
 
