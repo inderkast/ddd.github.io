@@ -1,0 +1,163 @@
+.h1,
+h1,
+lead text-muted mb-0 {
+    font: 50px/1.1 'Abril Fatface', serif;
+}
+
+.form-hor {
+    background-color: #d5dbd1af;
+}
+
+.h4,
+h4 {
+    text-align: center;
+    width: 700px;
+    color: #534848;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.input {
+    width: 700px;
+}
+
+.reviews_product .fa-star {
+    color: gold;
+}
+
+.note {
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #209b10d0, #a8e096);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.form-content {
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+
+.btnSubmit {
+    border: none;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #00cc0a;
+    color: #fff;
+}
+
+/* .container {
+    background-color: #ced4da;
+    padding-top: 30px;
+} */
+
+.col-xl-6 {
+    background-color: #ced4da;
+}
+
+.card-inner {
+    margin-left: 4rem;
+}
+
+.pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+
+@media (max-width: 991px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 767px) {
+    .row justify-content-center align-items-center {
+        flex: 1;
+        margin-right: 0;
+    }
+}
+
+.dashed {
+    border-bottom: 1px dashed rgb(2, 2, 5);
+}
+
+.modal-body {
+    font-size: 6px;
+}
+
+.modal-title {
+    font-size: 10px;
+}
+
+.section {
+    opacity: 0.86;
+}
+
+svg {
+    display: block;
+    width: 258px;
+    height: 258px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+}
+
+.tree {
+    fill: #E73E0D;
+}
+
+/* .circle-mask {
+    transform-origin: 50% 90%;
+    animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+    0%,
+    100% {
+        transform: scale(0.0);
+    }
+    7%,
+    90% {
+        transform: scale(0.4);
+    }
+    50% {
+        transform: scale(1);
+    } */
+
+
+    body {
+        margin: 0;
+      }
+      .loader-container {
+        top: calc(50% - 65px);
+        left: calc(50% - 65px);
+        width: 180px;
+        font-weight: bold;
+        height: 35px;
+        color: rgb(255, 249, 249);
+        text-align: center;
+        font-size: 27px;
+        line-height: 50px;
+        overflow: hidden;
+      }
+      @keyframes load {
+        100% {
+          transform: translateY(-1500px);
+        }
+      }
+      .loader {
+        animation: load 30s steps(15, end) infinite;
+      }
