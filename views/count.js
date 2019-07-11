@@ -1,4 +1,4 @@
-<% include layout/head.ejs %>
+<% include layout/head.js %>
 
 <div class="container text-center" style="padding-top: 40px; padding-bottom: 40px">
         <div class="card">
@@ -21,7 +21,7 @@
           </div>
        
     
-        <% include layout/footer.ejs %>
+        <% include layout/footer.js %>
     
     </body>
     
