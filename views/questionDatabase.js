@@ -1,4 +1,4 @@
-<% include layout/head.ejs %>
+<% include layout/head.js %>
 
 <section class="section jumbotron text-center">
     <div class="container">
@@ -23,7 +23,7 @@
 </section>
 </div>
 
-<% include layout/footer.ejs %>
+<% include layout/footer.js %>
 </body>
 
 </html>
