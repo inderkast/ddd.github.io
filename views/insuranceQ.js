@@ -1,4 +1,4 @@
-<% include layout/head.ejs %>
+<% include layout/head.js %>
 
 
 <div class="container text-center" style="padding-top: 40px; padding-bottom: 40px">
@@ -38,7 +38,7 @@
             <button type="button" class="btn btn-light" style="color:rgb(34, 36, 37)">Чтобы ответить на вопрос, нажмите на желаемую кнопку.</button>
         </section>
     </div>
-    <% include layout/footer.ejs %>
+    <% include layout/footer.js %>
 
 </body>
 </body>
