@@ -1,4 +1,4 @@
-<% include layout/head.ejs %>
+<% include layout/head.js %>
 <section class="section jumbotron text-center">
     <div class="container">
         <h1 class="jumbotron-heading">СУПЕР ОПРОС 20!9 </h1>
@@ -24,7 +24,7 @@
    
         </div>
 
-    <% include layout/footer.ejs %>
+    <% include layout/footer.js %>
 
 </body>
 
