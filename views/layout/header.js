@@ -12,13 +12,13 @@
         href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Open+Sans:300,400|Open+Sans+Condensed:700|Source+Code+Pro|Abril+Fatface"
         rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon/icons8-contacts-filled-50.png">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/stylo.css">
+    <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/ejs@2.6.1/ejs.min.js"></script>
+   
 </head>
 
 <body>
