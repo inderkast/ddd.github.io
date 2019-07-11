@@ -1,25 +1,9 @@
-var expressValidator = require('express-validator')
-var expressSearch=require('express-search');
-var mixin = require("mixin");
-
 
 const express = require('express')
 const app = express()
 const config = require('./config')
 const bodyParser = require('body-parser')
 const path = require('path')
-
-
-expressSearch.connect(config);
-
-// const START_NUMBER = 1000
-// const MAX_DIFF = 10
-// const MIN_INTERVAL = 4
-// const MAX_INTERVAL = 7
-// let random = START_NUMBER
-
-// setInterval(() => random += Math.floor(Math.random() * MAX_DIFF), Math.floor(MIN_INTERVAL + Math.random() * (MAX_INTERVAL - MIN_INTERVAL)))
-
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
